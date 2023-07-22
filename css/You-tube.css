@@ -4,11 +4,17 @@
 }
 
 .search-bar {
+    margin: 2px;
+    padding: 4px;
     border-radius: 20px;
     height: 40px;
     margin-left: 160px;
     border: 1px solid #eeeef0;
     font-family: 'Roboto', sans-serif;
+}
+
+.search-bar:hover {
+    border-color: blue;
 }
 
 .mic-img {
@@ -42,8 +48,14 @@
     background-color: #dfdfe2;
 }
 
+.image-effect {
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
 .image-effect:hover {
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 .author img {
@@ -52,7 +64,7 @@
     height: 45px;
     width: 45px;
     margin-right: 10px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .details {
@@ -76,4 +88,8 @@ span {
     text-decoration: none;
     color: rgb(96, 96, 96);
     font-size: 14px;
+}
+
+.heading-video {
+    margin-left: 10px;
 }
